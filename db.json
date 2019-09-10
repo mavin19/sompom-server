@@ -1,0 +1,47 @@
+{
+  "profile": {
+    "enable_change_firstname": false,
+    "enable_change_lastname": false,
+    "enable_change_password": true,
+    "theme": {
+      "enable_change_themes": true,
+      "list_theme": [
+        {
+          "theme_id": 1,
+          "theme_name": "pink"
+        },
+        {
+          "theme_id": 2,
+          "theme_name": "green"
+        },
+        {
+          "theme_id": 3,
+          "theme_name": "dark"
+        }
+      ]
+    }
+  },
+  "features": [
+    {
+      "new_feed": {
+        "enable_post": true,
+        "enable_like_comment": true
+      },
+      "message": {
+        "enable_gif_chat": true,
+        "enable_video_chat": true,
+        "enable_image_chat": true,
+        "enable_file_chat": true,
+        "enable_audio_chat": true
+      },
+      "call": {
+        "enable_call": true,
+        "free_minute": 6000,
+        "amount_spent": 600,
+        "amount_avalible": 5400
+      }
+    }
+  ],
+  "user_id": 1
+}
+
